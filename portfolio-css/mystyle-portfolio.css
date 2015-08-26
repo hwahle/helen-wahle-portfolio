@@ -110,7 +110,10 @@ text-align: center;
     box-sizing: border-box;
 }
 
-
+img:hover {
+  opacity: 0.5;
+  background: #868eb2;
+}
 
 ol, ul {
     list-style: none;
@@ -165,6 +168,7 @@ ol, ul {
 }
 section > h1 {
     margin-top: 2em;
+    
 }
 
 .portfolio .content .content-footer > h1 {
