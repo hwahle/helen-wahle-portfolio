@@ -52,7 +52,7 @@ body {
     color: #222222;
     font-size: 1em;
   margin: 0;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .masthead-intro,
@@ -99,7 +99,9 @@ text-align: center;
     margin-bottom: 2em;
 }
 
-.portfolio .content {
+.portfolio,
+ .content,
+  .content-footer {
     margin-top: 1rem;
     padding: none;
     color: #1d1e21;
@@ -132,7 +134,8 @@ ol, ul {
 
 .introduction-section,
 .location-section,
-.questions-section
+.questions-section,
+.content-footer
  {
     max-width: 50em;
     margin-left: auto;
@@ -164,7 +167,7 @@ section > h1 {
     margin-top: 2em;
 }
 
-.portfolio .content > h1 {
+.portfolio .content .content-footer > h1 {
   margin-top: 2em;
 }
 
@@ -183,12 +186,5 @@ section > h1 {
 
 
 
-.content-footer > p {
- color: white;
-  text-shadow: 1px 1px 1px #1d1c1c;
-}
-.content-footer {
-  /* Red, Green, Blue: #RRGGBB */
-  background-color: #868eb2;
-}
+
 
