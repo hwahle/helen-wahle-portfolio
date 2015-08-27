@@ -1,0 +1,28 @@
+{
+  "name": "helen-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idiot-savant/helen-wahle-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idiot-savant/helen-wahle-portfolio/issues"
+  },
+  "homepage": "https://github.com/idiot-savant/helen-wahle-portfolio#readme",
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "express": "^4.13.3",
+    "gulp-inject": "^1.5.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-util": "^3.0.6",
+    "wiredep": "^2.2.2"
+  }
+}

@@ -1,92 +1,71 @@
-@media only screen and (max-width: 500px) {
-    .masthead {
-        padding: 3em 0;
-    }
-    .masthead-heading {
-        font-size: 3em;
-    }
+body {
+    /* Typography Declarations */
+    color: #222222;
+    margin: 0;
+    font-family: 'News Cycle', sans-serif;
 }
+
 /* Navigation Section */
 .top-navigation {
-
     background-color: #fff;
-    font-family: 'Roboto', sans-serif; 
-font-size: 16px; 
-color: #838994; 
-letter-spacing: 0.03em;
-position: fixed;
-width: 100%;
-z-index: 9999;
-
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation > .content {
     width: 970px;
     height: 71px;
     margin: 0 auto;
-    
-    
-
 }
-
 .top-navigation > .content > .links {
-  float: right;
-   font-family: 'Roboto', sans-serif;
+    float: right;
+    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 20px;
     margin-bottom: 20px;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
-
 }
-
 .links li {
     margin-left: 1.563rem;
     margin-top: .6rem;
     display: inline-block;
 }
-
-body {
-    /* Typography Declarations */
-    color: #222222;
-    font-size: 1em;
-  margin: 0;
-    font-family: 'News Cycle', sans-serif;
-}
-
 .masthead-intro,
-.masthead-heading, 
+.masthead-heading,
 .content-footer {
-text-align: center;
-  text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
 }
 .masthead {
     padding: 6em 0;
-  background-image: url('http://i.imgur.com/Gsl0Jvi.jpg');
-   background-repeat: no-repeat;
+    background-image: url('http://i.imgur.com/Gsl0Jvi.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     border-top: solid 1em #868eb2;
 }
 .masthead-intro {
-  /* Layout Declarations */
+    /* Layout Declarations */
     margin-bottom: 0.1em;
-  /* Typography Declarations */
+    /* Typography Declarations */
     font-family: 'Pacifico', cursive;
     font-size: 2em;
 }
-
 .masthead-heading {
-  /* Layout Declarations */
+    /* Layout Declarations */
     margin-top: -0.2em;
-  /* Typography Declarations */
+    /* Typography Declarations */
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 6em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
-
 .portfolio {
     background-color: #fff;
     overflow: hidden;
@@ -98,10 +77,9 @@ text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-
 .portfolio,
- .content,
-  .content-footer {
+.content,
+.content-footer {
     margin-top: 1rem;
     padding: none;
     color: #1d1e21;
@@ -109,42 +87,37 @@ text-align: center;
     vertical-align: baseline;
     box-sizing: border-box;
 }
-
 img:hover {
-  opacity: 0.5;
-  background: #868eb2;
+    opacity: 0.5;
+    background: #868eb2;
 }
-
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
-
 .portfolio .content h3 {
     font-weight: 400;
     text-align: center;
     font-size: 16px;
     margin: 2.5rem 0px 1.875rem;
 }
-
 .portfolio li {
-  width: 50%;
-  float: left;
-      display: inline-block;
+    width: 50%;
+    float: left;
+    display: inline-block;
     border: 1px solid white;
     box-sizing: border-box;
     height: 4em;
 }
-
 .introduction-section,
 .location-section,
 .questions-section,
-.content-footer
- {
+.content-footer {
     max-width: 50em;
     margin-left: auto;
     margin-right: auto;
-  margin-top: 2em;
-  margin-bottom:2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .social > li {
     display: inline-block;
@@ -161,34 +134,31 @@ ol, ul {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.4em;
     font-weight: bold;
-  color: #868eb2;
-  
-  /* Layout */
+    color: #868eb2;
+    /* Layout */
     margin: 2em 0 1em 0;
 }
 section > h1 {
     margin-top: 2em;
-    
 }
-
 .portfolio .content .content-footer > h1 {
-  margin-top: 2em;
+    margin-top: 2em;
 }
-
-
 .masthead-intro {
     margin-bottom: 0.1em;
-   color: white;
-  text-shadow: 1px 1px 1px #868eb2, 3px 3px 5px #868eb2;
+    color: white;
+    text-shadow: 1px 1px 1px #868eb2, 3px 3px 5px #868eb2;
 }
-
 .masthead-heading {
     margin-top: -0.2em;
-   color: white;
-  text-shadow: 2px 2px 2px #868eb2, 2px 2px 3px #868eb2;
+    color: white;
+    text-shadow: 2px 2px 2px #868eb2, 2px 2px 3px #868eb2;
 }
-
-
-
-
-
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
