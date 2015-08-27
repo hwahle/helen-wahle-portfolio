@@ -1,0 +1,32 @@
+{
+  "name": "helen-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwahle/helen-wahle-portfolio.git"
+  },
+  "author": "Helen Wahle <helenwahle@gmail.com>",
+  "contributors": [{
+      "name": "Saliya Seneviratne",
+      "email": "sseneviratne@thinkful.com"
+  }],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwahle/helen-wahle-portfolio/issues"
+  },
+  "homepage": "https://github.com/hwahle/helen-wahle-portfolio#readme",
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "express": "^4.13.3",
+    "gulp-inject": "^1.5.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-util": "^3.0.6",
+    "wiredep": "^2.2.2"
+  }
+}
