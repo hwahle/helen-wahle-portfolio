@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/idiot-savant/helen-wahle-portfolio.git"
   },
-  "author": "",
+  "author": "Helen Wahle <helenwahle@gmail.com>",
+  "contributors": [{
+      "name": "Saliya Seneviratne",
+      "email": "sseneviratne@thinkful.com"
+  }],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/idiot-savant/helen-wahle-portfolio/issues"
