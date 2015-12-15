@@ -67,7 +67,7 @@ body {
     background-color: #fff;
     overflow: hidden;
     display: block;
-    height: 340px;
+    /* height: 340px; */
     max-width: 50em;
     margin-left: auto;
     margin-right: auto;
@@ -99,8 +99,9 @@ ul {
     margin: 2.5rem 0px 1.875rem;
 }
 .portfolio li {
-    width: 50%;
-    float: left;
+    /* width: 50%; */
+    /* float: left; */
+    margin: 20px;
     display: inline-block;
     border: 1px solid white;
     box-sizing: border-box;

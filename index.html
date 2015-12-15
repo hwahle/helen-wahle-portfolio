@@ -55,31 +55,60 @@
             <h1 style="text-align: left;color: #838994;">portfolio</h1>
             <ul class="content">
                 <li>
-                    <a id="demo01" href="http://imgur.com/Q9c7gnC" target="_blank">
+                    <a id="portfolio01" href="#animatedModal">
                         <img height="180px" src="./images/hack-the-times.png" alt="Hack the New York Times">
                     </a>
                 </li>
                 <li>
-                    <a id="demo02" href="http://imgur.com/Q9c7gnC" target="_blank">
+                    <a id="portfolio02" href="#modal-02">
+                        <img height="180px" src="./images/hack-the-times.png" alt="Hack the New York Times">
+                    </a>
+                </li>
+                <li>
+                    <a id="portfolio03" href="#modal-03">
                         <img height="180px" src="./images/hack-the-times.png" alt="Hack the New York Times">
                     </a>
                 </li>
             </ul>
         </div>
-        <!-- modal -->
+
+
+        <!--PORTFOLIO 01-->
         <div id="animatedModal">
-            <div class="close-animatedModal">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal"> 
                 CLOSE MODAL
             </div>
-
+                
             <div class="modal-content">
-                <div>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                    tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                    diam voluptua. At vero eos et accusam et justo duo dolores
-                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                    est Lorem ipsum dolor sit amet.
-                </div>
+                <!--Your modal content goes here-->
+                <h1>PORTFOLIO ITEM 1</h1>
+            </div>
+        </div>
+
+        <!--PORTFOLIO 02-->
+        <div id="modal-02">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-02"> 
+                CLOSE MODAL
+            </div>
+            
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+                <h1>PORTFOLIO ITEM 2</h1>
+            </div>
+        </div>
+
+        <!--PORTFOLIO 03-->
+        <div id="modal-03">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-03"> 
+                CLOSE MODAL
+            </div>
+            
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+                <h1>PORTFOLIO ITEM 3</h1>
             </div>
         </div>
     </section>
@@ -88,15 +117,11 @@
     <footer class="content-footer">
         <h1 style="text-align: left; font-size: 1.5em;color: #838994;">contact</h1>
         <ul class="social">
-            <li><a href="https://github.com/hwahle">GitHub</a>
-            </li>
-            <li>| <a href="https://www.linkedin.com/pub/helen-wahle/54/a0a/a75">LinkedIn</a>
-            </li>|
-            <li><a href="https://www.pinterest.com/hwahle/">Pinterest</a>
-            </li>
+            <li><a href="https://github.com/hwahle">GitHub</a></li> | 
+            <li><a href="https://www.linkedin.com/pub/helen-wahle/54/a0a/a75">LinkedIn</a></li> | 
+            <li><a href="https://www.pinterest.com/hwahle/">Pinterest</a></li>
         </ul>
-        <p>Cover Image via <a href="http://unsplash.com">Unsplash</a>
-        </p>
+        <p>Cover Image via <a href="http://unsplash.com">Unsplash</a></p>
     </footer>
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
