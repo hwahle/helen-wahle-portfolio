@@ -111,12 +111,13 @@ ul {
     /* Typography Declarations */
     font-weight: 300;
     letter-spacing: 0.05em;
+    text-align: left;
     
 }
 
 a:link {
     text-decoration: none;
-    
+
 }
 
 .introduction-section,
