@@ -117,7 +117,16 @@ ul {
 
 a:link {
     text-decoration: none;
+    color: #9999cc;
 
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: #9999cc;
 }
 
 .introduction-section,
