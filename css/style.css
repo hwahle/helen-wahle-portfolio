@@ -102,17 +102,29 @@ ul {
 
 
 .portfolio li {
-    width: 18%;
-    /* float: left; */
+    /* Typography Declarations */
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height:1.5em;
+  border-bottom:1px;
+  float:left;
+  display:inline;
     
 }
 
-.portfolio p {
-    /* Typography Declarations */
-    font-weight: 300;
-    letter-spacing: 0.05em;
-    text-align: left;
-    
+.portfolio ul {
+width:760px;
+height: 100px;
+  margin-bottom:20px;
+  overflow:hidden;
+  border-top:1px;
+}
+
+#double li { 
+    width:50%;
+
 }
 
 a:link {
