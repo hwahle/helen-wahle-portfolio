@@ -104,7 +104,7 @@ ul {
 .portfolio li {
     /* Typography Declarations */
     font-family: 'Pacifico', cursive;
-    font-size: 1.2em;
+    font-size: 2.0em;
     font-weight: 300;
     letter-spacing: 0.05em;
     line-height:1.5em;
@@ -118,7 +118,7 @@ ul {
 
 .portfolio ul {
 width:760px;
-height: 100px;
+height: 150px;
   margin-bottom:20px;
   overflow:hidden;
   border-top:1px;
@@ -154,6 +154,10 @@ a:visited {
     margin-bottom: 2em;
 }
 .social > li {
+    display: inline-block;
+}
+
+.content-footer p {
     display: inline-block;
 }
 
