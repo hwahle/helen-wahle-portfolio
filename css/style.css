@@ -136,7 +136,7 @@ a:link {
 }
 
 a:hover {
-    color: black;
+    color: #838994;
 }
 
 a:visited {
@@ -156,6 +156,11 @@ a:visited {
 .social > li {
     display: inline-block;
 }
+
+.introduction-section p {
+    text-align: center;
+}
+
 .introduction > p,
 .location > p,
 .content-footer > p {
